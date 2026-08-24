@@ -2,7 +2,7 @@ using Supplier_Onboarding_ExtensionService as service from '../../srv/service';
 annotate service.Suppliers with @(
     UI.HeaderInfo : {
         TypeName : 'Supplier',
-        TypeNamePlural : 'Suppliers',
+        TypeNamePlural : 'Supplier Pre-Registrations',
         Title : {
             $Type : 'UI.DataField',
             Value : supplierName
